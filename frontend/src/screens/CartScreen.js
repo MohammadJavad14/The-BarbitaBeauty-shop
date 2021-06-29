@@ -112,7 +112,7 @@ function CartScreen({ match, location, history }) {
               disabled={cartItems.length === 0}
               onClick={checkoutHandler}
             >
-              بررسی نهایی
+              نهایی کردن سفارش
             </Button>
           </ListGroup.Item>
         </Card>
